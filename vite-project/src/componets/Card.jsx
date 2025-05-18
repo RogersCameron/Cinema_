@@ -9,14 +9,14 @@ const Card = ({
       <div className=" mt-5 relative border w-60 h-80 rounded-xl bg-white">
         <img
           src={image}
-          alt={title}
+          alt=""
           className="w-full h-full border rounded-xl border-black "
         />
         <div className=" absolute bottom-0 left-0 p-2 w-full ">
           <h1>{title}</h1>
           <h1>{rating}</h1>
           <div className="flex flex-row gap-2 flex-wrap text-sm">
-          {genres.map((genre, index) =>( <span key={index} className="bg-slate-700 px-2 py-1 rounded">{genre}
+          {genres.map((genre, index) =>( <span key={index} className="bg-slate-400 px-2 py-1 rounded">{genre}
 
           </span>))}
           </div>
